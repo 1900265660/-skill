@@ -1,0 +1,6 @@
+{
+  "intro": "Captain, the signal is coming from below.",
+  "warning": "Hull integrity: {integrity}%",
+  "choice_yes": "Dive now",
+  "choice_no": "Return to port"
+}

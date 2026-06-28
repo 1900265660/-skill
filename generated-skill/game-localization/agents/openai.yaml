@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Localization"
+  short_description: "Audit packaged games and prepare safe localization patches."
+  default_prompt: "Use $game-localization to audit this packaged game folder for localization feasibility, cost, risks, and patch strategy."

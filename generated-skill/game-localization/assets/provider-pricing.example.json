@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "purpose": "Example only. Verify current provider pricing before using paid routes.",
+    "units": "USD per million tokens unless otherwise noted",
+    "last_verified": "2026-06-24"
+  },
+  "providers": {
+    "manual_csv": {
+      "models": {
+        "manual_csv": {
+          "input_usd_per_mtok": 0,
+          "output_usd_per_mtok": 0,
+          "notes": "No API spend. Export CSV for human or external workflow."
+        }
+      }
+    },
+    "mock_model": {
+      "models": {
+        "mock_model": {
+          "input_usd_per_mtok": 0,
+          "output_usd_per_mtok": 0,
+          "notes": "For tests only. Does not produce production translations."
+        }
+      }
+    },
+    "openai": {
+      "models": {
+        "fill_current_openai_model": {
+          "input_usd_per_mtok": null,
+          "output_usd_per_mtok": null,
+          "request_usd": 0,
+          "vision_image_usd": 0,
+          "notes": "Fill in current official OpenAI API pricing before any paid run."
+        }
+      }
+    },
+    "anthropic": {
+      "models": {
+        "claude-haiku-4-5": {
+          "input_usd_per_mtok": 1.0,
+          "output_usd_per_mtok": 5.0,
+          "request_usd": 0,
+          "vision_image_usd": 0,
+          "notes": "Official pricing from Anthropic pricing page; verify again before production use."
+        },
+        "claude-sonnet-4-6": {
+          "input_usd_per_mtok": 3.0,
+          "output_usd_per_mtok": 15.0,
+          "request_usd": 0,
+          "vision_image_usd": 0,
+          "notes": "Official pricing from Anthropic pricing page; verify again before production use."
+        }
+      }
+    }
+  }
+}

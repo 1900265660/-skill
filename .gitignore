@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+generated-skill/**/__pycache__/
+generated-skill/**/audit-output/
+generated-skill/**/smoke-output/
+generated-skill/**/evaluation-output/
+generated-skill/**/ocr-plan-output/
+generated-skill/**/patch-output/
+generated-skill/**/sample-output/
+generated-skill/**/inventory-output/
+generated-skill/**/validation-output/
+generated-skill/**/cost-output/
+generated-skill/**/provider-output/
+generated-skill/**/mock-provider-output/
