@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autonomous Product Manager"
+  short_description: "Turn product ideas into specs, design briefs, plans, goals, reviews, releases, and workflow evolution."
+  default_prompt: "Use the autonomous-product-manager workflow. Start with session bootstrap if this is an existing workspace, ask requirements one question at a time, then produce a product spec, design brief, development plan, goal, review loop, and evolution signals."
